@@ -2,6 +2,8 @@
 
 Esta es una aplicación creada con **Streamlit** y **MySQL** que permite registrar, visualizar y filtrar gastos por fecha o categoría. La base de datos se gestiona localmente usando **XAMPP**.
 
+[📽️ Ver video demo en Google Drive](https://drive.google.com/drive/folders/1bl9mjytAVUgjcE1H9l8lg9ZOaSy8C5Fk)
+
 ---
 
 ## 🗃️ Configuración de la Base de Datos (usando XAMPP)
