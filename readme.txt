@@ -6,15 +6,42 @@ Esta es una aplicación creada con **Streamlit** y **MySQL** que permite registr
 
 ---
 
-## 🗃️ Configuración de la Base de Datos (usando XAMPP)
+Para trabajar con este proyecto localmente, seguí estos pasos para configurar la base de datos MySQL utilizando XAMPP y HeidiSQL:
+✅ Requisitos previos
 
-1. Asegurate de tener [XAMPP](https://www.apachefriends.org/index.html) instalado y que el servicio de **MySQL** esté corriendo.
-2. Abrí **phpMyAdmin** desde "http://localhost/phpmyadmin".
-3. Creá una base de datos nueva llamada "datos" (o dejá que el archivo SQL lo haga por vos).
-4. Importá el archivo SQL:
-   - Entrá a la pestaña **Importar**
-   - Seleccioná el archivo "datos.sql" (o donde lo hayas puesto)
-   - Hacé clic en **Continuar**
+    XAMPP instalado y funcionando
+
+    HeidiSQL (o cliente similar como DBeaver o MySQL Workbench)
+
+🛠 Pasos
+
+    -Iniciá MySQL desde el panel de control de XAMPP (botón "Start").
+
+    -Abrí HeidiSQL y creá una nueva conexión:
+
+        Hostname/IP: 127.0.0.1 o localhost
+
+        Usuario: root
+
+        Contraseña: (dejar en blanco, a menos que la hayas cambiado)
+
+        Puerto: 3306 (por defecto)
+
+    -Conectate al servidor.
+
+    -Tenés dos opciones:
+
+        Crear manualmente una base de datos llamada datos
+
+        O simplemente importar el archivo .sql, que ya la crea y configura
+
+    -Para importar:
+
+        Clic derecho sobre el servidor > "Run SQL file..."
+
+        Seleccioná el archivo datos.sql
+
+        Ejecutá
 
 Después de esto vas a tener dos tablas:
 
